@@ -1,0 +1,75 @@
+/*common start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+	line-height: 24px;
+}
+
+/*common end*/
+/*header start*/
+header{
+	padding: 25px 0;
+	/*border-bottom: 1px solid #626262;*/
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+.logo{
+	margin-top: 13px;
+	width: 11%;
+	/*border: 1px solid red;*/
+	float: left;
+}
+.logo a{
+	display: block;
+}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	width: 70%;
+	/*border: 1px solid black;*/
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	margin: 0 60px;
+	padding: 1px 2px;
+	display: inline-block;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+}
+.menu ul li a:hover {
+	border-top: 1px solid #626262;
+	border-bottom: 1px solid #626262;
+	color: #b4ad9e;
+	
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+/*header end*/
+/*banner start*/
+.banner{}
+.b_content{}
+.b_content img{
+	width: 100%;
+}
+
+/*banner end*/
